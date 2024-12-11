@@ -37,6 +37,7 @@ def Wordle():
     #print("\nЗагадано слово:",Back.LIGHTWHITE_EX + Fore.MAGENTA + our_word+Back.RESET+Fore.RESET)
     #Проверка тест
     game_end = False
+    #fdsgag
     attempts = 6
     word = ""
     while game_end != True:
