@@ -35,6 +35,7 @@ def Wordle():
     print("\n"+Back.LIGHTWHITE_EX + Fore.BLACK + "Б" + Back.RESET + Fore.RESET+"-Цвет буквы, если буква есть в слове, но не на этой конкретной позиции")
     print("\n"+Back.BLACK + Fore.LIGHTWHITE_EX + "В" + Back.RESET + Fore.RESET + "-Цвет буквы,если буквы нет в слове    ")
     #print("\nЗагадано слово:",Back.LIGHTWHITE_EX + Fore.MAGENTA + our_word+Back.RESET+Fore.RESET)
+    #Проверка тест
     game_end = False
     attempts = 6
     word = ""
